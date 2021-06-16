@@ -1,0 +1,17 @@
+{
+  "name": "egg-cute-router",
+  "version": "1.0.0",
+  "description": "cute router",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "author": "wade zha",
+  "license": "MIT"
+}
