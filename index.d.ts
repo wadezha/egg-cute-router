@@ -19,8 +19,8 @@ declare class RouterDecorator {
     noAuth: (noAuth: boolean = true) => any;
     resubmit: (second: number = 2, times: number = 1) => any;
     transactional: (transactional: boolean = true) => any;
-    
-    request: (position: string, type: string, name: string = '', desc: string = '', example: string = '', required: boolean = true, prop: any = {}) => any;
+
+    request: (position: string, type: string, name: string = '', desc: string = '', example: any = '', required: boolean = true, prop: any = {}) => any;
     response: (type: string, name: string = '', desc: string = '', example: string = '', required: boolean = true, prop: any = {}) => any;
 
     static routers;
@@ -46,5 +46,5 @@ export declare const noAuth: (noAuth: boolean = true) => any;
 export declare const resubmit: (second: number = 2, times: number = 1) => any;
 export declare const transactional: (transactional: boolean = true) => any;
 
-export declare const request: (position: string, type: string, name: string = '', desc: string = '', example: string = '', required: boolean = true, prop: any = {}) => any;
+export declare const request: (position: string, type: string, name: string = '', desc: string = '', example: any = '', required: boolean = true, prop: any = {}) => any;
 export declare const response: (type: string, name: string = '', desc: string = '', example: string = '', required: boolean = true, prop: any = {}) => any;

@@ -564,6 +564,3 @@ exports.transactional = routerInstance.transactional.bind(routerInstance);
 
 exports.request = routerInstance.request.bind(routerInstance);
 exports.response = routerInstance.response.bind(routerInstance);
-
-/** 暴露实例的prefix和http的各个方法 */
-// exports.Router = new RouterDecorator();
